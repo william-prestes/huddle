@@ -1,6 +1,5 @@
 @media (max-width: 1024px){
     body{
-        background-image: url(../images/bg-mobile.svg) no-repeat;
         background-size: cover;
     }
 
@@ -12,13 +11,18 @@
         align-items: center;
         text-align: center;
     }
+    
+    .btn{
+        margin-top: 30px;
+    }
 
     footer{
+        margin-top: 80px;
         justify-content: center;
     }
 
     footer a{
-        margin-right: 1rem;
+        margin-right: 10px;
     }
 }
 
@@ -27,15 +31,15 @@
         background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        position: top;
+        background-position: top;        
     }
 
     .logo{
-        width: 150px;
+        width: 160px;
     }
 
     .titulo-principal{
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     .texto-principal{
@@ -43,18 +47,12 @@
     }
 
     .btn{
-        margin-top: 30px;
-        font-size: 1.4rem;
-        padding: 15px 100px;
-    }
-
-    footer{
-        margin: 80px 80px
+        font-size: 1.7rem;
+        padding: 15px 80px;
     }
 
     footer a{
         font-size: 1.6rem;
-        border: 1.8px solid #ffffff;
-        margin-right: 1rem;
+        margin-right: 8px;
     }
 }
